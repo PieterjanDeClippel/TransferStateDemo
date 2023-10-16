@@ -1,6 +1,5 @@
 import { isPlatformServer } from '@angular/common';
-import { Component, Inject, PLATFORM_ID, OnInit } from '@angular/core';
-import { TransferState, makeStateKey } from '@angular/platform-browser';
+import { Component, Inject, PLATFORM_ID, OnInit, TransferState, makeStateKey } from '@angular/core';
 
 const backgroundColorState = makeStateKey<string>('backgroundColor');
 
